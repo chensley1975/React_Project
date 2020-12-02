@@ -1,38 +1,68 @@
-.App {
+body {
+  background: linear-gradient(#330033, #1AB4E5);
+}
+
+h1, h2, h3 {
+  font-family: 'Acme', sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+footer {
+  background: #283747;
+  color: white; }
+
+  img {
+    width: 15rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .readSect {
+    background: white;
   }
-  to {
-    transform: rotate(360deg);
+
+  .jumbotron {
+    margin: 0;
+    padding: 1.75rem;
+    background-image: linear-gradient(to right, #330033, #2980B9, #1AB4E5);
+    color: white;
   }
-}
+
+  .navbar-dark {
+    background-color: #282721;
+  }
+
+  .row-content {
+    padding: 3rem, 0;
+    min-height: 12rem;
+  }
+
+  .site-footer {
+    background-image: linear-gradient(#330033, #2980B9);
+    color: white;
+  }
+
+  .list-items {
+    color: white;
+  }
+
+  .fa-lg {
+    padding: 1rem;
+  }
+
+  .fa-youtube {
+    background: #DF0101;
+    color: white;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .fs-title {
+    text-transform: uppercase;
+    color: #330033;
+    margin-bottom: 10px;
+  }
